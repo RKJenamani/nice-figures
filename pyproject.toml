@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nice-figures"
+version = "0.1.0"
+description = "A tool for creating nice figures."
+
+# Specify your Python version requirement and any external dependencies here
+requires-python = ">=3.7"
+dependencies = [
+    "opencv-python",
+    "dlib",
+]
